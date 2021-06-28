@@ -1,0 +1,96 @@
+.top,.menu,.main,.footer{
+    border: 5px solid;
+    margin-bottom: 10px;
+}
+
+.top{
+    height: 100px;
+}
+.logo{
+    width:20%;
+    height: 100px;
+    background: aquamarine;
+    float:left;
+    margin-right: 1%;
+}
+.banner{
+    width: 79%;
+    height: 100px;
+    background: #3100ff;
+    float:left;
+}
+.menu{
+    height: 30px;
+}
+.menu-element{
+    float:left;
+    margin-right: 5px;
+    margin-left: 5px;
+    line-height:30px;
+}
+.log{
+    float: right;
+    margin-right: 5px;
+    margin-left: 5px;
+    line-height:30px;
+}
+.main,.left,.mid,.right{
+    height: 200px;
+}
+.left{
+    background: beige;
+    width: 24%;
+    margin-right: 1%;
+    float:left;
+}
+.mid{
+    background: #ecec48;
+    width: 59%;
+    margin-right: 1%;
+    float:left;
+}
+.element{
+    width:23%;
+    margin: 1%;
+    background:burlywood;
+    float:left;
+    height: 90px;
+}
+.right{
+    background: #ff0000;
+    width:15%;
+    float:left;
+}
+.up{
+    width: 90%;
+    height: 90px;
+    margin: 5%;
+    background: beige;
+}
+.footer{
+    height:100px;
+}
+@media only screen and(max-width:1200px) {
+    .top,.menu,.main,.footer{
+        border: 3px solid red;
+        margin-bottom: 10px;
+    }
+    .left{
+        display: none;
+    }
+    .mid{
+        width: 69%;
+    }
+    .right{
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .mid {
+        width: 100%;
+    }
+
+    .right {
+        display: none;
+    }
+}
